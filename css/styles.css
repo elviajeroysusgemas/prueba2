@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../Animation/fonts/Montserrat-Regular.eot');
+  src: url('../../Animation/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../../Animation/fonts/Montserrat-Regular.woff') format('woff'),
+     url('../../Animation/fonts/Montserrat-Regular.ttf') format('truetype'),
+     url('../../Animation/fonts/Montserrat-Regular.svg#Pacifico') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url('../../Animation/fonts/Montserrat-Black.eot');
+  src: url('../../Animation/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+	url('../../Animation/fonts/Montserrat-Black.woff') format('woff'), url('../fonts/MontserratAlternates-Black.ttf') format('truetype'),
+  url('../../Animation/fonts/Montserrat-Black.svg')
+  format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../../Animation/fonts/Montserrat-Bold.eot');
+  src: url('../../Animation/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../../Animation/fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+  url('../../Animation/fonts/Montserrat-Bold.svg')
+  format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+    font-family:'Segoe-Seven';
+    src:url('../../Animation/fonts/Segoe-Seven.otf');
+}
+
+a{color:inherit;}
+
+.my_btn{
+  background: #0c2;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  bottom: 0;
+  color:#fff;
+  cursor:pointer;
+  left: -100px;
+  margin-left: 50%;
+  padding: 10px 30px 40px 30px;
+  position: fixed;
+  transform: translateY(35px);
+  transition: all ease .5s;
+  z-index: 100;
+}
+
+.my_btn:hover{transform: translateY(25px) scale(1.05);}
+header{background:#0a2;}
+header i{width:30px;}
+header li{font-family: Helvetica}
+header img{width:100%;}
+header h3{font-family: Helvetica; font-size: 25px;}
+ul{list-style:none; margin-bottom:0}
+.video{background:#fdf;height:90vh;}
+img{width:100%;}
+.ban_mobile{display: none;}
+
+.foto_estudiantes{
+  background-image:url(../img/Fotografia2.jpg);
+  height:50%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;}
+
+.text_ranking{text-shadow:0 0 10px #000;}
+.text_ranking h3 p{font-family: Helvetica;text-transform:uppercase;}
+.seven{font-family: Helvetica}
+
+.plus ul li img{
+  border-radius:50%;
+  box-shadow: 2px 3px 5px 3px #aaa;
+  width:100%;}
+
+.plus h3 {
+  font-family: Helvetica;
+}
+
+.plus_box{height:90px;}
+.proceso_admis{background:#0a2;}
+.awards{background:#ddd;}
+.awards img{margin:auto; width:75%;}
+
+footer{
+  background:#0a2;
+  color:#fff;
+  font-size: 13px;
+  line-height: 25px;
+  padding: 15px 0 15px 0;
+}
+
+footer img{width:33%;}
+footer i{font-size:1.5rem; transition: ease 0.5s;}
+footer i:hover{color:#fff; transform:scale(1.2);}
+footer a:hover{color:inherit;}
+
+
+@media only screen and (max-width: 768px){
+header img{margin:auto;}
+.video{height:23vh;}
+.ban{display: none;}
+.ban_mobile{display: block;}
+.foto_estudiantes{background-attachment:scroll;}
+.plus_box{height:130px;}
+.awards img{width:100%;}
+footer{text-align:center;}
+}
